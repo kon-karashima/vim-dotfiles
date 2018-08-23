@@ -8,7 +8,6 @@ Plug 'jeetsukumaran/vim-nefertiti'
 Plug 'cohama/lexima.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 "Plug 'tpope/vim-surround'
@@ -25,6 +24,8 @@ Plug 'mhinz/vim-signify'
 "Plug 'tyru/caw.vim'
 "Plug 'osyo-manga/vim-marching'
 "Plug 'Shougo/vimproc.vim'
+"Plug 'jistr/vim-nerdtree-tabs'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 "  インストール判定関数
@@ -38,7 +39,7 @@ endfunction
 
 "個別設定
 if s:plug.is_installed("vim-clang")
-    let g:clang_c_options = '-std=c11'
+    let g:clang_c_options = '-std=c14'
     let g:clang_cpp_options = '-std=c++1z -stdlib=libc++'
 endif
 
