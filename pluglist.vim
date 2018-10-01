@@ -40,7 +40,7 @@ endfunction
 "個別設定
 if s:plug.is_installed("vim-clang")
     let g:clang_c_options = '-std=c14'
-    let g:clang_cpp_options = '-std=c++1z -stdlib=libc++'
+    let g:clang_cpp_options = '-std=c++17 -stdlib=libc++'
 endif
 
 "lexima
