@@ -84,7 +84,7 @@ set undodir=$HOME/.vim/undodir
 "括弧の強調を解除
 "let loaded_matchparen = 1
 "Leader Key"
-let mapleader = "¥<Space>"
+let mapleader = "\<Space>"
 "改行"
 set wrap
 set nospell
