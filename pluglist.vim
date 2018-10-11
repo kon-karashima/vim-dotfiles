@@ -2,14 +2,19 @@
 "Vim-Plug List
 "=============
 call plug#begin('~/.vim/plugged')
-Plug 'itchyny/lightline.vim'
-Plug 'justmao945/vim-clang'
+"=== ColorScheme
 Plug 'jeetsukumaran/vim-nefertiti'
-Plug 'cohama/lexima.vim'
+"=== General
+Plug 'itchyny/lightline.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-fugitive'
+Plug 'thinca/vim-quickrun'
+Plug 'cohama/lexima.vim'
+"=== Git
 Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+"=== C++
+Plug 'justmao945/vim-clang'
 "=== Perl
 Plug 'c9s/perlomni.vim'
 Plug 'hotchpotch/perldoc-vim'
@@ -20,7 +25,6 @@ Plug 'hotchpotch/perldoc-vim'
 "Plug 'rust-lang/rust.vim'
 "Plug 'racer-rust/vim-racer'
 "Plug 'vim-syntastic/syntastic'
-"Plug 'thinca/vim-quickrun'
 "Plug 'glidenote/memolist.vim'
 "Plug 'tikhomirov/vim-glsl'
 "Plug 'kovisoft/slimv'
