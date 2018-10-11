@@ -10,6 +10,10 @@ Plug 'Yggdroot/indentLine'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
+"=== Perl
+Plug 'c9s/perlomni.vim'
+Plug 'hotchpotch/perldoc-vim'
+"=== On hold now
 "Plug 'tpope/vim-surround'
 "Plug 'easymotion/vim-easymotion'
 "Plug 'terryma/vim-expand-region'
