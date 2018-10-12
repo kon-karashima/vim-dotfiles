@@ -4,5 +4,5 @@ if has('vim_starting')
     " ノーマルモード時に非点滅のブロックタイプのカーソル
     let &t_EI .= "\e[2 q"
     " 置換モード時に非点滅の下線タイプのカーソル
-    let &t_SR .= "\e[4 q"
+    "let &t_SR .= "\e[4 q"
 endif

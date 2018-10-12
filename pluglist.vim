@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 "=== C++
 Plug 'justmao945/vim-clang'
 "=== Perl
+Plug 'vim-perl/vim-perl'
 Plug 'c9s/perlomni.vim'
 Plug 'hotchpotch/perldoc-vim'
 "=== On hold now
@@ -71,4 +72,8 @@ if s:plug.is_installed("vim-fugitive")
     nnoremap <silent> [fugitive]b :Gblame<CR>
     nnoremap <silent> [fugitive]d :Gdiff<CR>
     nnoremap <silent> [fugitive]m :Gmerge<CR>
+endif
+
+if s:plug.is_installed("vim-quickrun")
+    nmap <Leader>r <plug>(quickrun)
 endif
