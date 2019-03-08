@@ -15,12 +15,13 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 "=== C++
 Plug 'justmao945/vim-clang'
-"=== Perl
-Plug 'vim-perl/vim-perl'
-Plug 'c9s/perlomni.vim'
-Plug 'hotchpotch/perldoc-vim'
 "=== Rust
 Plug 'rust-lang/rust.vim'
+"=== Clojure
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'guns/vim-sexp',    {'for': 'clojure'}
+Plug 'liquidz/vim-iced', {'for': 'clojure'}
+
 "=== On hold now
 "Plug 'tpope/vim-surround'
 "Plug 'easymotion/vim-easymotion'
@@ -77,4 +78,8 @@ endif
 
 if s:plug.is_installed("vim-quickrun")
     nmap <Leader>r <plug>(quickrun)
+endif
+
+if s:plug.is_installed("vim-iced")
+    let g:iced_enable_default_key_mappings = v:true
 endif
