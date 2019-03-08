@@ -19,11 +19,12 @@ Plug 'justmao945/vim-clang'
 Plug 'vim-perl/vim-perl'
 Plug 'c9s/perlomni.vim'
 Plug 'hotchpotch/perldoc-vim'
+"=== Rust
+Plug 'rust-lang/rust.vim'
 "=== On hold now
 "Plug 'tpope/vim-surround'
 "Plug 'easymotion/vim-easymotion'
 "Plug 'terryma/vim-expand-region'
-"Plug 'rust-lang/rust.vim'
 "Plug 'racer-rust/vim-racer'
 "Plug 'vim-syntastic/syntastic'
 "Plug 'glidenote/memolist.vim'

@@ -109,6 +109,4 @@ set backspace=indent,eol,start
 "ビープ音すべてを無効にする
 set visualbell t_vb=
 set noerrorbells "エラーメッセージの表示時にビープを鳴らさない
-"omni
-imap <C-n> <C-x><C-o>
 set formatoptions-=ro
